@@ -16,7 +16,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Calculator
           </a>
     <h3 >React Apllication</h3>
           <Link to='/'>Home   </Link>&nbsp;

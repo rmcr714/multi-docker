@@ -4,7 +4,8 @@ services:
   - docker
 
 before_install:
-    
+
+  
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
     - docker build -t rmcr714/react-test -f ./client/Dockerfile.dev ./client
 
